@@ -1,0 +1,15 @@
+127.0.0.1 - - [09/Jan/2025:15:29:06 +0100] "GET /sample/ HTTP/1.1" 200 636
+127.0.0.1 - - [09/Jan/2025:15:29:06 +0100] "GET /sample/images/tomcat.gif HTTP/1.1" 200 1441
+127.0.0.1 - - [09/Jan/2025:15:29:06 +0100] "GET /favicon.ico HTTP/1.1" 200 21630
+127.0.0.1 - - [09/Jan/2025:15:29:17 +0100] "GET /manager HTTP/1.1" 302 -
+127.0.0.1 - - [09/Jan/2025:15:29:18 +0100] "GET /manager/ HTTP/1.1" 302 -
+127.0.0.1 - - [09/Jan/2025:15:29:18 +0100] "GET /manager/html HTTP/1.1" 401 2562
+127.0.0.1 - tomcat_5 [09/Jan/2025:15:29:30 +0100] "GET /manager/html HTTP/1.1" 200 20090
+127.0.0.1 - - [09/Jan/2025:15:29:30 +0100] "GET /manager/css/manager.css HTTP/1.1" 200 2946
+127.0.0.1 - - [09/Jan/2025:15:29:30 +0100] "GET /manager/images/tomcat.svg HTTP/1.1" 200 68761
+127.0.0.1 - - [09/Jan/2025:15:29:30 +0100] "GET /manager/images/asf-logo.svg HTTP/1.1" 200 20712
+127.0.0.1 - tomcat_5 [09/Jan/2025:15:29:34 +0100] "POST /manager/html/stop;jsessionid=88A479950A9F0743ECF18974B2A16AB6?path=/sample&org.apache.catalina.filters.CSRF_NONCE=79DB1AD60EA08F3442604512E635ABFD HTTP/1.1" 200 17981
+127.0.0.1 - - [09/Jan/2025:15:30:05 +0100] "GET /sample/ HTTP/1.1" 404 698
+127.0.0.1 - tomcat_5 [09/Jan/2025:15:30:11 +0100] "POST /manager/html/start?path=/sample&org.apache.catalina.filters.CSRF_NONCE=C123A93A79063F033B9D92D6F90DEE9C HTTP/1.1" 200 18573
+127.0.0.1 - - [09/Jan/2025:15:30:17 +0100] "GET /sample/ HTTP/1.1" 200 636
+127.0.0.1 - - [09/Jan/2025:15:30:17 +0100] "GET /sample/images/tomcat.gif HTTP/1.1" 200 1441
